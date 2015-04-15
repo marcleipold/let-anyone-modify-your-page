@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{%block content %}
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Stage 4 Notes</title>
+	</head>
+
+	<body style="max-width: 800px;">
+
+		<h2>What is a server?</h2>
+
+		A server is a computer program that provides services to other computer programs
+		(and their users) in the same or other computers.
+		The computer that a server program runs in is also frequently referred to as a server 
+		(though it may be used for other purposes as well).
+		<br>
+		<br>
+		In the client/server programming model, a server is a program that awaits and fulfills requests from client programs in the same or other computers. A given application in a computer may function as a client with requests for services from other programs and also as a server of requests from other programs.
+		<br>
+		<br>
+		Specific to the Web, a Web server is the computer program (housed in a computer) that serves requested HTML pages or files. A Web client is the requesting program associated with the user. The Web browser in your computer is a client that requests HTML files from Web servers.
+
+		<h2>Why Validate?</h2>
+
+		Checking that a page “displays fine” in several contemporary browsers may be a reasonable insurance that the page will “work” today, but it does not guarantee that it will work tomorrow.
+		<br>
+		<br>
+		Validation is one of the simplest ways to check whether a page is built in accordance with Web standards, and provides one of the most reliable guarantee that future Web platforms will handle it as designed.
+
+		<h2>Why use templates?</h2>
+
+		In general, leveraging templates is a great way to separate markup and logic in views, and to maximize code reusability and maintainability. Templates allow teams to divide their work, allowing designers to focus on views written in HTML and CSS, while other engineers focus on logic and back end integration. With a syntax close to the desired output such as HTML, you have a clear and fast way to get things done. 
+
+
+	</body>
+
+</html>
+
+
+{% endblock %}
